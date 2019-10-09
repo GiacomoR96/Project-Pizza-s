@@ -7,8 +7,6 @@ import Carrello from "./components/Carrello";
 import { MaterialIcons, Entypo } from '@expo/vector-icons';
 
 StatusBar.setHidden(true); 
- 
-// http://www.dmi.unict.it/~calanducci/LAP2/food.json  link dal quale prelevare gli ingredienti
 
 const getTabBarIcon = (navigation, focused, tintColor) => {
   const { routeName } = navigation.state;
