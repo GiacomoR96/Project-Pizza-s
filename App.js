@@ -2,11 +2,11 @@ import React from 'react';
 import { Text, View, StyleSheet, StatusBar } from "react-native";
 import { createAppContainer } from 'react-navigation';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
+import { MaterialIcons, Entypo } from '@expo/vector-icons';
 import Menu from "./components/Menu";
 import Carrello from "./components/Carrello";
-import { MaterialIcons, Entypo } from '@expo/vector-icons';
 
-StatusBar.setHidden(true); 
+StatusBar.setHidden(true);
 
 const getTabBarIcon = (navigation, focused, tintColor) => {
   const { routeName } = navigation.state;
